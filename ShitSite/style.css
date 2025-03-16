@@ -9,31 +9,36 @@ body {
     height: 100vh;
 }
 
-#StudentInfo {
-    border-color: white;
+#Shitvideo {
+    border-color: rgb(49, 255, 30);
     width: 500px;
     text-align: left;
 }
 
-#ScrumRole {
-    border-color: red;
+#Music {
+    border-color: rgb(255, 34, 222);
     width: 500px;
     text-align: left;
 }
+
 
 #MSG {
-    border-color: green;
+    border-color: rgb(49, 255, 30);
     width: 500px;
     text-align: left;
 }
 
 .finalButton {
-    background-color: aqua;
+    background-color: transparent;
+    color: white;
     padding: 10px;
     border-radius:10px;
-    padding-left: 10%;
-    padding-right: 10%;
     cursor: pointer;
+    width: 20%;
+}
+
+.mSg {
+    width: 67%;
 }
 
 legend {
