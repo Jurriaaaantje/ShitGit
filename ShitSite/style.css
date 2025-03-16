@@ -39,7 +39,7 @@ body {
 
 .finalButton {
     background-color: transparent;
-    border-color: rgb(54, 54, 54));
+    border-color: rgb(54, 54, 54);
     color: white;
     padding: 5px;
     border-radius:10px;
@@ -90,7 +90,7 @@ label {
     border-radius: 30px;
     text-align: left;
     background: hsl(0, 0%, 0%);
-    border-color: rgb(255, 34, 222));
+    border-color: white;
     font-size: 20px;
   }
 
