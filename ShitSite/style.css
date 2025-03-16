@@ -1,12 +1,16 @@
 body {
     text-align: center;
     background: linear-gradient(45deg, rgb(255, 34, 222), rgb(49, 255, 30));
+    
 }
 
 #mainForm {
     padding-top: 20px;
-    width: 600px;
     height: 100vh;
+    float: left;
+    width: 33%;
+    display: inline-block;
+    box-sizing: border-box;
 }
 
 #Shitvideo {
@@ -38,11 +42,12 @@ body {
 }
 
 .mSg {
-    width: 67%;
+    width: 65%;
 }
 
 legend {
     color: white;
+    font: small-caps bold 24px/1 sans-serif;
 }
 
 fieldset {
@@ -50,7 +55,7 @@ fieldset {
     padding: 20px;
     margin: 10px auto;
     background-color: black;
-    color: whiite
+    color: white;
 }
 
 i {
@@ -67,6 +72,7 @@ i {
 
 label {
     color: white;
+    font: small-caps bold 15px/1 sans-serif;
 }
 
 .header {
@@ -78,6 +84,12 @@ label {
     font-size: 20px;
   }
 
+p {
+    font: small-caps bold 20px/1 sans-serif;
+    padding-top: 5px;
+}
+
 iframe {
     width: 100%;
 }
+
