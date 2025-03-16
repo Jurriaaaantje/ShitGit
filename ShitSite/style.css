@@ -13,6 +13,10 @@ body {
     box-sizing: border-box;
 }
 
+#Minecraft {
+    border-color: rgb(255, 34, 222);
+}
+
 #Shitvideo {
     border-color: rgb(49, 255, 30);
     width: 500px;
@@ -27,15 +31,17 @@ body {
 
 
 #MSG {
-    border-color: rgb(49, 255, 30);
+    border-color: rgb(255, 34, 222);
     width: 500px;
     text-align: left;
 }
 
+
 .finalButton {
     background-color: transparent;
+    border-color: rgb(54, 54, 54));
     color: white;
-    padding: 10px;
+    padding: 5px;
     border-radius:10px;
     cursor: pointer;
     width: 20%;
@@ -43,6 +49,8 @@ body {
 
 .mSg {
     width: 65%;
+    background-color: rgb(54, 54, 54);
+    color: white;
 }
 
 legend {
@@ -51,10 +59,11 @@ legend {
 }
 
 fieldset {
-    border-radius: 10px;
-    padding: 20px;
+    border-radius: 13px;
+    padding: 10px;
     margin: 10px auto;
     background-color: black;
+    border-color: rgb(20, 75, 15);
     color: white;
 }
 
