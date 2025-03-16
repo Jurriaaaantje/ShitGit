@@ -5,7 +5,7 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>Shitman Site</title>
-        <link rel="icon" type="assets/x-icon" href="/assets/Shitman-icon.jpeg">
+        <link rel="shortcut icon" href="assets/Shitman-icon.jpeg">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
@@ -17,10 +17,13 @@
                 <fieldset id="mainForm">
                         <fieldset id="Minecraft">
                             <legend>Minecraft server</legend>
-                            <p>
-                                IP: mc.shitmanband.com<br>
-                                Map: mc.shitmanband.com:23699
-                            </p>
+                            <form action="http://mc.shitmanband.com:23699/">
+                                <p>
+                                
+                                    IP: mc.shitmanband.com<br>
+                                    Map: <input id="Minecraftbutton" type="image" src="assets/Minecraft.png" alt="Submit" width="50" height="30">
+                                    
+                                </p>
                             
                         </fieldset>
                 </fieldset>
@@ -59,17 +62,21 @@
                 <fieldset id="mainForm">
                     <fieldset id="MSG">
                         <legend>Fakka stuur bericht dan</legend>
+                        <label for="name">Naam:</label>
+                        <input class="NaMe" d="name" name="Name" type="text"><br>
+                        <form>
                         <label for="MSG">Hierzo:</label>
-                        <input class="mSg" d="msg" name="Msg" type="text">
-                        <button class="finalButton" type="submit">Send form</button>
+                            <input class="mSg" d="msg" name="Msg" type="text">
+                            <button class="finalButton" type="submit">Send</button>
+                        </form>
                     </fieldset>
                     <fieldset id="Messages">
                         <legend>Berichten</legend>
                         <fieldset id="Message">
                             <fieldset id="Messagecontext">
-                                <legend>Kees</legend>
+                                <legend>Wouterus</legend>
                                 <label class="Message">
-                                    KAnker zooi
+                                    Wat een kut band
                                 </label>
                             </fieldset>
                             <fieldset id="Response">
