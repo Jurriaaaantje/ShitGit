@@ -36,6 +36,22 @@ body {
     text-align: left;
 }
 
+#Messages {
+    padding-top: 20px;
+    height: 100%;
+    float: left;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+#Messagecontext {
+    text-align: left;
+}
+
+#Response {
+    text-align: right;
+}
 
 .finalButton {
     background-color: transparent;
@@ -50,6 +66,7 @@ body {
 .mSg {
     width: 65%;
     background-color: rgb(54, 54, 54);
+    border-radius: 5px;
     color: white;
 }
 
