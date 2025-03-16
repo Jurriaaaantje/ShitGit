@@ -85,11 +85,12 @@ label {
 }
 
 .header {
-    padding: 2px;
+    padding: 10px;
+    padding-left: 20px;
     border-radius: 30px;
-    text-align: center;
+    text-align: left;
     background: hsl(0, 0%, 0%);
-    color: white;
+    border-color: rgb(255, 34, 222));
     font-size: 20px;
   }
 
