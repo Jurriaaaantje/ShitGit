@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Inschrijving FEP 101</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <fieldset id="mainForm">
+                <img src="ShitLogo.png" class="main-heading" alt="Shitman Logo">
+                <p>
+                    <form action="" method="POST">
+                        <i>Vul je gegevens in</i>
+                        <fieldset id="StudentInfo">
+                            <legend>Studenten gegevens</legend>
+                            <label class="personInfo" for="NameInput">Naam</label><br>
+                            <input class="button" id="NameInput" name="Name" type="text" required><br>
+
+                            <label class="personInfo" for="EmailInput">E-mail</label><br>
+                            <input class="button" id="EmailInput" name="Email" type="email" required><br>
+
+                            <label class="personInfo" for="PhoneNumber">Telefoon</label><br>
+                            <input class="button" id="PhoneNumber" name="PhoneNumber" type="tel" required><br>
+                        </fieldset>
+                        
+                        <fieldset id="ScrumRole">
+                            <legend>Scrum rol</legend>
+                            <i>Ik ben een</i><br>
+                            <label class="RoleButton" for="Developer">Developer</label>
+                            <input id="Developer" name="RoleButton" type="radio">
+
+                            <label class="RoleButton" for="ProductOwner">Product Owner</label>
+                            <input id="ProductOwner" name="RoleButton" type="radio">
+
+                            <label class="RoleButton" for="ScrumMaster">Scrum Master</label>
+                            <input id="ScrumMaster" name="RoleButton" type="radio"><br>
+                        </fieldset>
+                        
+                        <fieldset id="MSG">
+                            <legend>Boodschap</legend>
+                            <label for="MSG">Bericht</label><br>
+                            <input class="button" d="msg" name="Msg" type="text"><br>
+                        </fieldset>
+                        
+                        <button class="finalButton" type="submit">Send form</button>
+                        <button class="finalButton" type="reset">Reset form</button>
+                    </form>
+                </p>
+            </fieldset> 
+        </main>
+    </body>
+</html>
