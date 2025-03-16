@@ -1,0 +1,59 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+}
+
+#mainForm {
+    background-color: white;
+    padding-top: 20px;
+    width: 600px;
+}
+
+#StudentInfo {
+    border-color: lightblue;
+    width: 500px;
+    text-align: left;
+}
+
+#ScrumRole {
+    border-color: red;
+    width: 500px;
+    text-align: left;
+}
+
+#MSG {
+    border-color: green;
+    width: 500px;
+    text-align: left;
+}
+
+.personInfo {
+    color: blue;
+}
+
+.finalButton {
+    background-color: aqua;
+    padding: 10px;
+    border-radius:10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    cursor: pointer;
+}
+
+fieldset {
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px auto;
+}
+
+i {
+    text-align: left;
+}
+
+.button {
+	padding: 5px;
+	border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc
+}
