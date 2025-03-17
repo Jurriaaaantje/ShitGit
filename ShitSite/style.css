@@ -15,11 +15,13 @@ body {
 
 #Minecraft {
     border-color: rgb(255, 34, 222);
+    text-align: left;
 }
 
 #Shitvideo {
     border-color: rgb(49, 255, 30);
-    width: 500px;
+    padding: 5% auto;
+    width: 95%;
     text-align: left;
 }
 
@@ -29,14 +31,16 @@ body {
 
 #Music {
     border-color: rgb(255, 34, 222);
-    width: 500px;
+    padding: 5% auto;
+    width: 95%;
     text-align: left;
 }
 
 
 #MSG {
     border-color: rgb(255, 34, 222);
-    width: 500px;
+    padding: 5% auto;
+    width: 95%;
     text-align: left;
 }
 
@@ -49,12 +53,17 @@ body {
     box-sizing: border-box;
 }
 
+#Message {
+    border-color: white;
+}
+
 #Messagecontext {
     text-align: left;
 }
 
 #Response {
     text-align: right;
+    border-color: rgb(255, 34, 222);
 }
 
 .finalButton {
@@ -89,9 +98,8 @@ legend {
 fieldset {
     border-radius: 13px;
     padding: 10px;
-    margin: 10px auto;
     background-color: black;
-    border-color: rgb(20, 75, 15);
+    border-color: rgb(49, 255, 30);
     color: white;
 }
 
@@ -113,7 +121,7 @@ label {
 }
 
 .header {
-    padding: 10px;
+    padding: 20px;
     padding-left: 20px;
     border-radius: 30px;
     text-align: left;
